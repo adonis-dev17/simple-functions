@@ -19,12 +19,3 @@ let dividesTwoNumbers = (d1, d2) => {
     return div;
 }
 dividesTwoNumbers(100, 2);
-
-//4. // Defining the function with default values
-function sum(num1 = 6, num2 = 1) {
-    return num1 + num2;
-  }
-  
-  // Calling the function
-  console.log(sum(8));
-  // Output 9
