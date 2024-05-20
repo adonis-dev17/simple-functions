@@ -31,3 +31,15 @@ function multiplyByNineFifths(number) {
   };
   
   getFahrenheit(15); // Returns 59
+
+  //4.b Using Helper function, to get the total cost of computers ordered.
+  function monitorCount(rows, columns) {
+    return rows * columns;
+  }
+  
+  function costOfMonitors(rows, columns) {
+    return monitorCount(rows, columns) * 200;
+  }
+  
+  const totalCost = costOfMonitors(5,4);
+  console.log(totalCost);
