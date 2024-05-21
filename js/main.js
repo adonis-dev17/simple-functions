@@ -43,18 +43,3 @@ function multiplyByNineFifths(number) {
   
   const totalCost = costOfMonitors(5,4);
   console.log(totalCost);
-
-  // 5. A function that converts an array of numbers to negatives.
-
-  function convertToNegatives(xx) {
-    for (let i=0; i<xx.length; i++) {
-       console.log(-xx[i]);
-    }
-  }
-  convertToNegatives([1, 2, 3, 4, 5]);
-
-
-
-
-
-
